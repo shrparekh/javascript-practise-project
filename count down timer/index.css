@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("../count down timer/image/apartment-architecture-buildings-business-425047.jpg");
+  background-size: cover;
+}
+/* .main img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+/* } */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+.col {
+  margin-top: 10px;
+  width: 1000px;
+
+  display: flex;
+
+  justify-content: center;
+  color: white;
+}
+input {
+  height: 50px;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.col div {
+  width: 250px;
+  text-align: center;
+}

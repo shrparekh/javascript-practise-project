@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input:focus-visible {
+  outline: 0;
+}
+.main {
+  background-color: #e74c3c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  min-width: 400px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+  padding: 10px;
+  background: #e67e22;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+#pass-box {
+  width: 100%;
+  display: block;
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 4px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  justify-content: space-between;
+}
+label {
+  user-select: none;
+}
+#btn {
+  width: 100%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #34495e;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
